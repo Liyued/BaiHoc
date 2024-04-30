@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+}
+h2 {
+  /* opacity: 100%; chỉnh độ mờ, sáng vẫn chiếm không gian và vẫn tương tác được*/
+  /* display: none; chỉnh sự hiển thị không chiếm không gian và không tương tác */
+  /* visibility: hidden; chỉnh độ nhìn thấy, không tương tác được */
+  visibility: hidden;
+}
+body {
+}
