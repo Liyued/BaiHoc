@@ -1,0 +1,22 @@
+p {
+  color: red;
+  font-size: 20px;
+}
+h1 {
+  color: blue;
+}
+#line_4 {
+  color: blue;
+  background-color: black;
+  width: fit-content;
+}
+
+.paragraph {
+  color: brown;
+  background-color: aqua;
+  width: fit-content;
+}
+
+.demo {
+  color: black;
+}
