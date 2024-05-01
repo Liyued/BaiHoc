@@ -1,0 +1,30 @@
+/* div p tác động lên TẤT CẢ thẻ p ở trong div */
+/* div>p tác động lên p là con TRỰC TIẾP của div */
+/* div + p tác động lên p đứng NGAY dưới div */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div > p {
+  font-size: 30px;
+}
+div p {
+  color: blue;
+}
+h1 + h2 {
+  color: red;
+}
+.demo + h3 {
+  color: blueviolet;
+}
+/* Có hai class demo nên ảnh hưởng 2 h3 */
+#title + h3 {
+  color: aqua;
+}
+/* Để specific hơn thì cho 2 class */
+.demo.demo2 + h3 {
+  color: brown;
+}
+/* div ~ p để tác động lên toàn bộ p ĐẰNG SAU div */
+div.loi_ket ~ p {
+  color: chartreuse;
+}
