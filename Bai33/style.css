@@ -1,0 +1,16 @@
+/* 1. p:hover { khi di chuột lên
+  font-size: 35px;
+  color: red;
+  transition: 1.5s;
+} */
+
+/* 2. p:active { khi nhấn giữ
+  color: blue;
+} */
+
+a:link {
+  color: rgb(0, 160, 160);
+}
+a:visited {
+  color: red;
+}

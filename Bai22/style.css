@@ -5,3 +5,9 @@ h1 {
 p {
   color: red;
 }
+a:active {
+  color: aqua;
+}
+a:target {
+  color: black;
+}

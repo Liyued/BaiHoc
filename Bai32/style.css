@@ -1,0 +1,4 @@
+/* [title~="hoc"] : có CHỮ hoc trong thuộc tính  */
+/* [title*="hoc"] : có CHUỖI hoc trong thuộc tính */
+/* [title^="tu"] : bắt đầu bằng chữ tu trong thuộc tính */
+/* [title$="c"] : kết thúc bằng KÍ TỰ "c" */
