@@ -1,0 +1,38 @@
+body {
+  height: 500px;
+  width: 500px;
+}
+h1 {
+  padding: 0px;
+  border: 2px solid black;
+  text-align: center;
+}
+strong {
+  border: 2px solid red;
+  padding: 20px;
+  background-color: blue;
+}
+a {
+  /* Không xài được
+    1.width height min/max width height
+    2.margin top/left/right... margin
+    Trừ khi sử dụng display:inline-block */
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  background-color: aqua;
+  border-radius: 999px;
+  display: inline-block;
+}
+a:hover {
+  color: aqua;
+  background-color: red;
+}
+p:hover {
+  display: block;
+  padding: 20px;
+}
+p:hover {
+  color: blue;
+}

@@ -1,0 +1,26 @@
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+div {
+  height: 700px;
+  width: 700px;
+  text-align: center;
+  background-color: white;
+  margin: 0 auto;
+  padding: 040px;
+}
+body {
+  background-color: gray;
+}
+.avatar:first-child {
+  margin-left: -270px;
+}
+.avatar:nth-child(2) {
+  margin-left: -50px;
+}
+.avatar:nth-child(3) {
+  margin-left: -70px;
+}

@@ -1,0 +1,8 @@
+/* .top:not(p) {
+  background-color: blue;
+  width: fit-content;
+} */
+/* Selector có thể được dùng với các selector đã học */
+.top:not(:first-child) {
+  color: blue;
+}

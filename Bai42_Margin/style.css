@@ -1,0 +1,9 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 20px 30px 40px 50px;
+  border: 10px solid blue;
+  margin: 15px;
+}
+/* margin có thể gõ giống padding */

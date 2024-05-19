@@ -8,9 +8,38 @@
   color: blue;
 } */
 
-a:link {
+/* 3. a:link { tác động lên a khi chưa truy cập
   color: rgb(0, 160, 160);
+} */
+/* 4. a:visited { tác động lên a sau khi đã truy cập
+  color: red;
+} */
+/*5. .div_elm:empty { tác động khi div rỗng
+  width: 200px;
+  height: 200px;
+  background-color: red;
+} */
+
+.div_elm {
+  /* mẫu */
+  width: 200px;
+  height: 200px;
+  background-color: blue;
 }
-a:visited {
+p {
+  font-size: 35px;
+}
+/* 6. h2:target {tác động nếu URL có #id
+  color: aqua;
+} */
+/*7. p:first-child { chọn phần tử p là phần tử con đầu tiên, tương tự last-child
+  color: red;
+} */
+/*8. p:nth-child(2) {chọn cụ thể thứ tự, nth-last-child thì ngược lại
+  color: red;
+} */
+/* Chú ý: chọn các số 2,4,.. tương tự với 3n 4n 5n... */
+p:nth-child(2n) {
   color: red;
 }
+/* only-child tác động lên phần tử con duy nhất */

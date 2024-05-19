@@ -2,3 +2,9 @@
 /* [title*="hoc"] : có CHUỖI hoc trong thuộc tính */
 /* [title^="tu"] : bắt đầu bằng chữ tu trong thuộc tính */
 /* [title$="c"] : kết thúc bằng KÍ TỰ "c" */
+[href] {
+  color: blue;
+}
+[target] {
+  color: black;
+}

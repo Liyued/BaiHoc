@@ -1,0 +1,39 @@
+a {
+  font-size: 50px;
+  text-decoration: none;
+  color: rgba(12, 4, 118, 0.436);
+}
+a:link {
+  color: rgb(44, 78, 171);
+}
+a:visited {
+  color: rgb(179, 49, 49);
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgba(0, 140, 255, 0.447);
+}
+ul {
+  font-size: 45px;
+  line-height: 1.4;
+  width: fit-content;
+}
+li:hover {
+  background-color: rgba(0, 0, 255, 0.263);
+  color: black;
+}
+li:not(hover) {
+  color: red;
+}
+div {
+  font-size: 45px;
+}
+p {
+  display: none;
+}
+
+div:hover p {
+  display: block;
+}

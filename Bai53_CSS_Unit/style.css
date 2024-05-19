@@ -1,0 +1,18 @@
+.box_cha {
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+}
+.box_con {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
+.parent {
+  border: 2px solid black;
+  width: fit-content;
+  font-size: 60px;
+}
+.con1 {
+  font-size: 50%;
+}

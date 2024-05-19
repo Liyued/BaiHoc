@@ -1,0 +1,12 @@
+h1 {
+  text-shadow: -2px -6px 4px red, 3px 6px 4px aqua;
+}
+/* Giá trị 1 là trái phải, 2 là trên dưới, 3 là độ mờ, 4 là màu
+giá trị âm thì làm ngược hướng lại  */
+/* Có thể có hai shadow, cách nhau bởi dấu , */
+.box {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  box-shadow: 2px 3px 4px slategray;
+}

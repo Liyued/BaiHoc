@@ -1,0 +1,27 @@
+div {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  color: red;
+  padding: 10px 20px 30px;
+}
+/*Ta có padding + border theo các hướng top,left,right,bottom  */
+/* div{
+    border-top: 20px solid pink;
+  border-bottom: 20px solid aqua;
+  border-radius: 10px;
+} */
+/* Chú ý. padding: trên-dưới trái-phải
+          padding: trên trái-phải dưới 
+          tương tự với border
+          */
+/* div {
+  border-width: 10px 20px 20px;
+  border-color: red;
+  border-style: solid dotted dotted;
+} */
+div {
+  border: 10px solid red;
+  border-radius: 10px 50px;
+}
+/* border-radius: top-left+bottom-right  */

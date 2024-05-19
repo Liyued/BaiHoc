@@ -1,0 +1,43 @@
+header {
+  background-color: aqua;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.navbar {
+  background-color: blueviolet;
+  height: 50px;
+}
+aside {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+section {
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+article {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+footer {
+  clear: both;
+  display: block;
+  background-color: aqua;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: fixed;
+  top: 0px;
+  line-height: 200px;
+}
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: sticky;
+  margin: auto;
+  margin-top: 50px;
+}
+/* position có relative,absolute,sticky,static */
+/* relative dựa trên vị trí ban đầu */
+/* absolute dựa trên vị trí của page (top bottom left right) */
+/* sticky sẽ dính theo view */
+/* static đứng im */
+/* fixed dựa theo viewport */

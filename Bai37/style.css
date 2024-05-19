@@ -1,0 +1,28 @@
+/* first-of-type tương tự first-child, chọn phần tử
+đầu tiên nhưng không cần là con của một phần tử nhất định */
+h1:hover {
+  color: blue;
+}
+h1:active {
+  color: red;
+}
+p:first-of-type {
+  color: red;
+}
+p:nth-of-type(3) {
+  color: blue;
+}
+p:nth-of-type(odd) {
+  background-color: aqua;
+  width: fit-content;
+}
+p:nth-of-type(even) {
+  background-color: violet;
+  width: fit-content;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p:only-of-type {
+  color: rgb(0, 0, 255);
+}

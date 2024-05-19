@@ -1,0 +1,24 @@
+.navigation ul {
+  list-style: none;
+  background-color: rgb(56, 15, 95);
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  float: left;
+  padding: 15px;
+}
+.navigation a:hover {
+  background-color: grey;
+}
+h1 {
+  text-align: center;
+}
+.main {
+  margin: 22px;
+}

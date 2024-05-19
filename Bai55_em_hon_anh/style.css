@@ -1,0 +1,11 @@
+.content {
+  font-size: 30px;
+  text-align: center;
+}
+.child {
+  font-size: 2em;
+  transition: 1s;
+}
+.child:hover {
+  font-size: 3em;
+}

@@ -1,0 +1,20 @@
+a {
+  font-size: 25px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  padding: 8px 15px;
+  display: inline-block;
+}
+div {
+  text-align: center;
+}
+a.active {
+  background-color: aquamarine;
+  font-weight: bold;
+  border-radius: 7px;
+}
+a:hover {
+  background-color: slategrey;
+  border-radius: 7px;
+}

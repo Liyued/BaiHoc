@@ -1,0 +1,30 @@
+.dropdown button {
+  font-size: 25px;
+  background-color: slateblue;
+  color: white;
+  border: none;
+  padding: 4px 4px 3px 3px;
+  cursor: pointer;
+}
+.dropdown a {
+  display: none;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 6px;
+}
+p {
+  font-size: 50px;
+}
+.dropdown .content {
+  position: absolute;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.759);
+}
+.content:hover a {
+  display: block;
+}
+.content:hover {
+  box-shadow: 2px 2px 4px;
+}

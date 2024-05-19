@@ -1,0 +1,29 @@
+h1::first-letter {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  font-style: italic;
+}
+p::first-line {
+  color: blue;
+}
+::selection {
+  color: slateblue;
+  background-color: rgba(137, 43, 226, 0.14);
+}
+/* selection 1 mình thì chọn gì cũng được */
+h1::selection {
+  color: red;
+  background-color: yellow;
+}
+::marker {
+  color: red;
+}
+.number li::before {
+  content: "✔️";
+}
+.number li:nth-child(odd)::after {
+  content: "❤️";
+}
+.number li:nth-child(even)::after {
+  content: "👍";
+}

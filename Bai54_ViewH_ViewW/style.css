@@ -1,0 +1,15 @@
+.box {
+  height: 80vh;
+  width: 80vw;
+  background-color: pink;
+  border-radius: 9999px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75vh;
+  user-select: none;
+  transition: 2s;
+}
+/* Làm cho  vui */
+.box:hover {
+  transform: rotate(360deg);
+}
